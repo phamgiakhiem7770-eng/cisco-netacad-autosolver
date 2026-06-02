@@ -1,4 +1,4 @@
-# CISCO Netacad Auto-Solver
+# Cisco Netacad Auto-Solver
 
 A lightweight Chrome Extension that extracts quiz questions from the current page, sends them to Gemini via its API, and displays the suggested answer directly on the screen.
 
@@ -70,3 +70,18 @@ Select the project folder.
 The extension should now appear in the Chrome toolbar.
 
 ---
+
+### Step 3: Use the Extension
+
+Navigate to any Cisco NetAcad quiz page.
+
+Look for the floating **Solve** button in the **bottom-right corner** of the page:
+
+```text
+Click Solve
+```
+
+Click the button to scan the page using OCR. The suggested correct options will be displayed on the screen.
+
+---
+
