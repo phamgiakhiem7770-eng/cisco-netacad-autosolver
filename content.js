@@ -41,13 +41,12 @@ async function askGemini(
         "PUT_YOUR_GEMINI_API_KEY_HERE";
 
     const prompt = `
-Question:
-${question}
+Q: ${question}
 
 Options:
 ${options.join("\n")}
 
-Return only the correct answer.
+Reply with only the correct option text.
 `;
 
     const response = await fetch(
@@ -59,15 +58,15 @@ Return only the correct answer.
                 "application/json"
             },
             body: JSON.stringify({
-                contents: [
-                    {
-                        parts: [
-                            {
-                                text: prompt
-                            }
-                        ]
-                    }
-                ]
+                contents: [{
+                    parts: [{
+                        text: prompt
+                    }]
+                }],
+                generationConfig: {
+                    temperature: 0,
+                    maxOutputTokens: 10
+                }
             })
         }
     );
