@@ -1,24 +1,26 @@
 {
   "manifest_version": 3,
   "name": "NetAcad Gemini Helper",
-  "version": "1.0",
+  "version": "1.2",
+  "description": "Automatically finds Cisco NetAcad quiz answers using Gemini",
   "permissions": [
-    "activeTab",
     "storage",
-    "scripting"
+    "activeTab"
   ],
   "host_permissions": [
-    "https://*.netacad.com/*",
-    "https://generativelanguage.googleapis.com/*"
+    "<all_urls>"
   ],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["https://*.netacad.com/*"],
-      "js": ["content.js"],
-      "css": ["styles.css"]
+      "matches": [
+        "*://*.netacad.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
     }
   ]
 }
