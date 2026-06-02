@@ -1,11 +1,26 @@
-# Cisco Netacad Auto-Solver
+<div align="center">
 
-A lightweight Chrome Extension that extracts quiz questions from the current page, sends them to Gemini via its API, and displays the suggested answer directly on the screen.
+<h1>Cisco Netacad Auto-Solver</h1>
 
-*Originally DOM-based, but now uses OCR and works fine.*
+<img
+  width="150"
+  height="150"
+  alt="netacad-autosolver-modified"
+  src="https://github.com/user-attachments/assets/14853378-c93d-4f1a-8b61-ae3c2faa81af"
+/>
 
+<br>
 
-Welcoming contributions from the OSS community to make it even better.
+<p>
+  A lightweight Chrome Extension that extracts quiz questions from the current page,
+  sends them to Gemini via its API, and displays the suggested answer directly on the screen. <em>(Originally DOM-based, but now uses OCR and works fine)</em>
+</p>
+
+<p>
+  Welcoming contributions from the OSS community to make it even better.
+</p>
+
+</div>
 
 ## Setup
 
@@ -80,6 +95,13 @@ Look for the floating **Solve** button in the **bottom-right corner** of the pag
 ```text
 Click Solve
 ```
+<p align="center">
+  <img
+    width="75%"
+    alt="netacad-screenshot"
+    src="https://github.com/user-attachments/assets/12a3ab99-49f4-467c-a188-ef367ed41607"
+  />
+</p>
 
 Click the button to scan the page using OCR. The suggested correct options will be displayed on the screen.
 
