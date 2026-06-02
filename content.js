@@ -68,7 +68,8 @@ if (!document.getElementById("netacad-gemini-solve-btn")) {
             if (response && response.error) {
                 showAnswer(`❌ Error: ${response.error}`, true);
             } else if (response && response.answer) {
-                showAnswer(`✅ <strong>Correct Option:</strong><br><br>${response.answer}`);
+                const formattedAnswer = response.answer.replace(/\n/g, '<br>');
+                showAnswer(`✅ <strong>Correct Option(s):</strong><br><br>${formattedAnswer}`);
             } else {
                 showAnswer(`❌ Unknown error occurred.`, true);
             }
