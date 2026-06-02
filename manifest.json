@@ -22,5 +22,19 @@
         "content.js"
       ]
     }
-  ]
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/netacad-autosolver.png",
+      "32": "icons/netacad-autosolver.png",
+      "48": "icons/netacad-autosolver.png",
+      "128": "icons/netacad-autosolver.png"
+    }
+  },
+  "icons": {
+    "16": "icons/netacad-autosolver.png",
+    "32": "icons/netacad-autosolver.png",
+    "48": "icons/netacad-autosolver.png",
+    "128": "icons/netacad-autosolver.png"
+  }
 }
