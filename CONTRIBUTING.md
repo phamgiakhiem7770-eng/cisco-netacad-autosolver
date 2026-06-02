@@ -1,4 +1,4 @@
-# Contributing to CISCO Netacad Auto-Solver
+# Contributing to Cisco Netacad Auto-Solver
 
 Thank you for your interest in contributing to CISCO Netacad Auto-Solver! We welcome contributions from the open-source community to make this extension better, more accurate, and easier to use.
 
