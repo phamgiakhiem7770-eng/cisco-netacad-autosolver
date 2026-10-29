@@ -31,9 +31,9 @@ async function handleCaptureAndSolve(sender) {
 }
 
 async function askGeminiVision(dataUrl) {
-    const apiKey = "PASTE_YOUR_GEMINI_API_KEY_HERE"; 
+    const apiKey = "AQ.Ab8RN6L5sjiK-0wcFHxjkUsPOI1EcaUjZVqAdZTAHhBm3-XbCQ"; 
     
-    if (!apiKey || apiKey === "PASTE_YOUR_GEMINI_API_KEY_HERE") {
+    if (!apiKey || apiKey === "AQ.Ab8RN6L5sjiK-0wcFHxjkUsPOI1EcaUjZVqAdZTAHhBm3-XbCQ") {
         throw new Error("Please set your Gemini API key in background.js");
     }
 
